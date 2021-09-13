@@ -8,15 +8,17 @@ import {SiMysql} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
 
 function Tools() {
+const size = '5em'
     return (
-        <div>
-            <AiFillHtml5/>
-            <DiCss3/>
-            <IoLogoJavascript/>
-            <FaReact/>
-            <FaNodeJs/>
-            <SiMysql/>
-            <SiMongodb/>
+        <div id="tools">
+            <div><p>Ferramentas</p></div>
+            <AiFillHtml5 className='iconesTools' color={'#fff'} size={size}/>
+            <DiCss3 className='iconesTools' color={'#fff'} size={size}/>
+            <IoLogoJavascript className='iconesTools' color={'#fff'} size={size}/>
+            <FaReact className='iconesTools' color={'#fff'} size={size}/>
+            <FaNodeJs className='iconesTools' color={'#fff'} size={size}/>
+            <SiMysql className='iconesTools' color={'#fff'} size={size}/>
+            <SiMongodb className='iconesTools' color={'#fff'} size={size}/>
 
         </div>
     )
