@@ -18,7 +18,7 @@ function App() {
       <Tools/>
       <Contact/>
       <div id='end'>
-        <a href=""><img src={img} alt="Laptop" /></a>
+        <a href="#header"><img src={img} alt="Laptop" /></a>
       </div>
     </div>
   );

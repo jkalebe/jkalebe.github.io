@@ -7,6 +7,7 @@ import siteLaws from './../assets/site-laws.gif'
 function Portfolio() {
     return (
         <div id='portfolio'>
+            <div><p>Portfólio</p></div>
             <AwesomeSlider 
             media={[
                 {
