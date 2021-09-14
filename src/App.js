@@ -1,12 +1,12 @@
 import './App.css';
 import img from './assets/pc1.svg'
 
-import Header from './components/Header';
-import Formation from './components/Formation';
-import Xperiencie from './components/Xperiencie';
-import Portfolio from './components/Portfolio';
-import Tools from './components/Tools'
-import Contact from './components/Contact';
+import Header from './components/Header.jsx';
+import Formation from './components/Formation.jsx';
+import Xperiencie from './components/Xperiencie.jsx';
+import Portfolio from './components/Portfolio.jsx';
+import Tools from './components/Tools.jsx';
+import Contact from './components/Contact.jsx';
 
 function App() {
   return (
