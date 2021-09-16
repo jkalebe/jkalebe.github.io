@@ -19,7 +19,7 @@ module.exports ={
             jQuery: 'jquery'
         }),
         new HtmlWebpackPlugin({
-            template: './public/index.html',
+            template: './index.html',
         }),
     ],
     module: {
@@ -32,10 +32,11 @@ module.exports ={
                 presets: ['@babel/preset-env', '@babel/preset-react']}
         },
         {
-            test: /\.css$/,
+            test: /\.css$/i,
             use: [
                 'style-loader',
-                'css-loader'
+                'css-loader',
+                'sass-loader'
                 ]
         },
         {

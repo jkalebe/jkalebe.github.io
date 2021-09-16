@@ -10,16 +10,40 @@ import {SiMongodb} from 'react-icons/si'
 function Tools() {
 const size = '5em'
     return (
+        <div className='container'>
         <div id="tools">
-            <div><p>Ferramentas</p></div>
-            <AiFillHtml5 className='iconesTools' color={'#fff'} size={size}/>
-            <DiCss3 className='iconesTools' color={'#fff'} size={size}/>
-            <IoLogoJavascript className='iconesTools' color={'#fff'} size={size}/>
-            <FaReact className='iconesTools' color={'#fff'} size={size}/>
-            <FaNodeJs className='iconesTools' color={'#fff'} size={size}/>
-            <SiMysql className='iconesTools' color={'#fff'} size={size}/>
-            <SiMongodb className='iconesTools' color={'#fff'} size={size}/>
-
+            <div className='divTitle'><p>Ferramentas</p></div>
+            <div className='container-tools'>
+                <div className='tecnologias'>
+                    <AiFillHtml5 className='iconesTools' color={'#fff'} size={size}/>
+                    <p>HTML</p>
+                </div>
+                <div className='tecnologias'>
+                    <DiCss3 className='iconesTools' color={'#fff'} size={size}/>
+                    <p>Css</p>
+                </div>
+                <div className='tecnologias'>
+                    <IoLogoJavascript className='iconesTools' color={'#fff'} size={size}/>
+                    <p>JavaScript</p>
+                </div>
+                <div className='tecnologias'>
+                    <FaReact className='iconesTools' color={'#fff'} size={size}/>
+                    <p>React</p>
+                </div>
+                <div className='tecnologias'>
+                    <FaNodeJs className='iconesTools' color={'#fff'} size={size}/>
+                    <p>NodeJS</p>
+                </div>
+                <div className='tecnologias'>
+                    <SiMysql className='iconesTools' color={'#fff'} size={size}/>
+                    <p>MySQL</p>
+                </div>
+                <div className='tecnologias'>
+                    <SiMongodb className='iconesTools' color={'#fff'} size={size}/>
+                    <p>MongoDB</p>
+                </div>
+            </div>
+        </div>
         </div>
     )
 }
