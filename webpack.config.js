@@ -19,7 +19,7 @@ module.exports ={
             jQuery: 'jquery'
         }),
         new HtmlWebpackPlugin({
-            template: './public/index.html',
+            template: './index.html',
         }),
     ],
     module: {
