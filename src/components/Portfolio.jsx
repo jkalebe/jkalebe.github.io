@@ -1,31 +1,59 @@
-import React from 'react'
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+import React,{Component} from 'react'
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import siteDesafio from './../assets/site-desafio.gif'
+import siteEcommerce from './../assets/site-ecommerce.gif'
 import siteLaws from './../assets/site-laws.gif'
 import appMoveOn from './../assets/app-moveon.gif'
 
-function Portfolio() {
+
+export default class Portfolio extends Component {
+  render() {
     return (
       <div className='container'>
         <div id='portfolio'>
             <div className='divTitle'><p>Portfólio</p></div>
-            <AwesomeSlider 
-            media={[
-                {
-                  source: appMoveOn,
-                },
-                {
-                  source: siteLaws,
-                },
-                {
-                  source: siteDesafio,
-                }
-              ]}
-            />
+            <Carousel >
+              <Carousel.Item >
+              <img
+              style={{height: '100%'}}
+              className="d-block w-100"
+              src={siteLaws}
+              alt="First slide"
+              />
+              </Carousel.Item>
+              <Carousel.Item>              
+              <img
+              style={{height: '100%'}}
+              className="d-block w-100"
+              src={siteEcommerce}
+              alt="First slide"
+              />
+
+              </Carousel.Item>
+              <Carousel.Item>
+              <img
+              style={{height: '100%'}}
+              className="d-block w-100"
+              src={siteDesafio}
+              alt="Second slide"
+              />
+              
+              </Carousel.Item>
+              <Carousel.Item>
+              <img
+              style={{height: '100%'}}
+              className="d-block w-100"
+              src={appMoveOn}
+              alt="Third slide"
+              />
+              
+              </Carousel.Item>
+          </Carousel>
         </div>
       </div>
     )
+  }
 }
 
-export default Portfolio

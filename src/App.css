@@ -126,6 +126,12 @@ p{
   align-items: center;
 }
 
+@keyframes scaleOut {
+  to {
+    transform: scale(0.60);
+  }
+}
+
 /* ----------------tools-------------------------- */
 
 

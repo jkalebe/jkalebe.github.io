@@ -8,6 +8,7 @@ module.exports ={
     output:{
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'build'),
+        publicPath: '/'
     },
     mode: 'development',
     plugins:[
@@ -19,7 +20,7 @@ module.exports ={
             jQuery: 'jquery'
         }),
         new HtmlWebpackPlugin({
-            template: './index.html',
+            template: 'index.html',
         }),
     ],
     module: {
@@ -32,7 +33,7 @@ module.exports ={
                 presets: ['@babel/preset-env', '@babel/preset-react']}
         },
         {
-            test: /\.css$/i,
+            test: /\.s?css$/i,
             use: [
                 'style-loader',
                 'css-loader',
