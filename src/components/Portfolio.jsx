@@ -18,16 +18,14 @@ export default class Portfolio extends Component {
             <Carousel >
               <Carousel.Item >
               <img
-              // style={{height: '15rem', width: '15rem'}}
-              className="d-block"
+              style={{height: '20rem'}}
               src={siteLaws}
               alt="First slide"
               />
               </Carousel.Item>
               <Carousel.Item>              
               <img
-              // style={{height: '15rem', width: '15rem'}}
-              className="d-block"
+              style={{height: '20rem'}}
               src={siteEcommerce}
               alt="First slide"
               />
@@ -35,8 +33,7 @@ export default class Portfolio extends Component {
               </Carousel.Item>
               <Carousel.Item>
               <img
-              // style={{height: '15rem', width: '15rem'}}
-              className="d-block"
+              style={{height: '20rem'}}
               src={siteDesafio}
               alt="Second slide"
               />
@@ -44,8 +41,7 @@ export default class Portfolio extends Component {
               </Carousel.Item>
               <Carousel.Item>
               <img
-              // style={{height: '15rem', width: '15rem'}}
-              className="d-block"
+              style={{height: '20rem'}}
               src={siteInstagran}
               alt="Third slide"
               />

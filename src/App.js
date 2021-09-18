@@ -22,7 +22,7 @@ function App() {
         <Tools/>
         <Contact/>
         <div id='end'>
-          <a href="#header"><img src={img} alt="Laptop" /></a>
+          <a href="#header"><img style={{maxWidth: '15rem'}} src={img} alt="Laptop" /></a>
         </div>
       </div>
     </div>

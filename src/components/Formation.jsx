@@ -12,7 +12,7 @@ export default function Formation() {
                         <li><p>Proposta de conclusão de curso: <a href="https://marcosamaris.github.io/laws/#/">"Laws - Ferramenta de anotação para gravações de midias!"</a></p></li>
                     </div>
                     <div id="divImg">
-                        <img src={Pc} alt="PC" />
+                        <img style={{width: '15rem'}} src={Pc} alt="PC" />
                     </div>
                 </div>
             </div>
