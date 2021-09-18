@@ -111,9 +111,9 @@ p{
 
 #portfolio{
   margin: auto;
-  padding: 100px 20px;
+  padding: 100px 0px;
   display: inline-block;
-  /* width: 100%; */
+  width: 100%;
 }
 
 /* ----------------tools-------------------------- */
