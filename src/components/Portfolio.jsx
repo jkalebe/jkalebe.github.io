@@ -17,34 +17,33 @@ export default class Portfolio extends Component {
             <div className='divTitle'><p>Portfólio</p></div>
             <Carousel >
               <Carousel.Item >
-              <img
+              
+              <a target='_blank' href='https://github.com/marcosamaris/laws'><img
               style={{height: '20rem'}}
               src={siteLaws}
               alt="First slide"
-              />
+              /></a>
               </Carousel.Item>
               <Carousel.Item>              
-              <img
+              <a target='_blank' href='https://github.com/jkalebe/site-ecommerce'><img
               style={{height: '20rem'}}
               src={siteEcommerce}
               alt="First slide"
-              />
-
+              /></a>
               </Carousel.Item>
               <Carousel.Item>
-              <img
+              <a target='_blank' href='https://github.com/jkalebe/servidor-local-node-pagina-web-react'><img
               style={{height: '20rem'}}
               src={siteDesafio}
               alt="Second slide"
-              />
-              
+              /></a>
               </Carousel.Item>
               <Carousel.Item>
-              <img
+              <a target='_blank' href=''><img
               style={{height: '20rem'}}
               src={siteInstagran}
               alt="Third slide"
-              />
+              /></a>
               
               </Carousel.Item>
           </Carousel>
