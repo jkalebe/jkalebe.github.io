@@ -13,8 +13,8 @@ function Xperiencie() {
                     <p>(2019-2020)</p>
                     <p>IFPA-Instituto Federal do Pará / campus Tucuruí</p>
                     <p className='conteudo'>Participou, como bolsista de um projeto do Edital Navega Saberes oferecido pela UFPA. 
-                        Atuando como professor de algoritmos basicos na linguagem; realizou projetos em python 
-                        didaticos, como jogos do Pacman, Snake e uma simples Calculadora com interface funcional!</p>
+                        Atuando como professor de algoritmos basicos; realizou projetos didaticos em python,
+                        como jogos do Pacman, Snake e uma simples Calculadora com interface funcional!</p>
                 </div>
                 <div className='div'>
                     <p>Interno-MoveOn</p>
