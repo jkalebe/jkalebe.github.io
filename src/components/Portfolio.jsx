@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import siteDesafio from './../assets/site-desafio.gif'
 import siteEcommerce from './../assets/site-ecommerce.gif'
-import siteLaws from './../assets/site-laws.gif'
+import siteLaws from './../assets/laws.gif'
 // import appMoveOn from './../assets/app-moveon.gif'
 import siteInstagran from './../assets/site-instagram.gif'
 
