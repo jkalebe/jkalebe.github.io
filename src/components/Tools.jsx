@@ -6,6 +6,8 @@ import {FaReact} from 'react-icons/fa'
 import {FaNodeJs} from 'react-icons/fa'
 import {SiMysql} from 'react-icons/si'
 import {SiMongodb} from 'react-icons/si'
+import {DiJava} from 'react-icons/di'
+import {SiAndroidstudio} from 'react-icons/si'
 
 function Tools() {
 const size = '5em'
@@ -41,6 +43,14 @@ const size = '5em'
                 <div className='tecnologias'>
                     <SiMongodb className='iconesTools' color={'#fff'} size={size}/>
                     <p>MongoDB</p>
+                </div>
+                <div className='tecnologias'>
+                    <DiJava className='iconesTools' color={'#fff'} size={size}/>
+                    <p>Java</p>
+                </div>
+                <div className='tecnologias'>
+                    <SiAndroidstudio className='iconesTools' color={'#fff'} size={size}/>
+                    <p>Android Studio</p>
                 </div>
             </div>
         </div>

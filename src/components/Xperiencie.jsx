@@ -13,8 +13,15 @@ function Xperiencie() {
                     <p>(2019-2020)</p>
                     <p>IFPA-Instituto Federal do Pará / campus Tucuruí</p>
                     <p className='conteudo'>Participou, como bolsista de um projeto do Edital Navega Saberes oferecido pela UFPA. 
-                        Atuando como professor de algoritmos basicos; realizou projetos didaticos em python,
-                        como jogos do Pacman, Snake e uma simples Calculadora com interface funcional!</p>
+                        Atuando como professor de algoritmos basicos. O objetivo do projeto foi influenciar alunos do ensino a utilizar
+                        programação e possivelmente, ingressar em uma faculdade de computação.</p>
+                    <ul className='conteudo' style={{color:'#fff'}}>
+                        <li>Desenvolvi minha de apresentação em público</li>
+                        <li>Desenvolvi minha metodologia de ensino</li>
+                        
+                        <li>Apresentei projetos práticos em python,
+                        que foram jogo do Pacman, jogo da Snake e uma simples Calculadora com interface funcional!</li>
+                    </ul>
                 </div>
                 <div className='div'>
                     <p>Interno-MoveOn</p>
@@ -22,6 +29,13 @@ function Xperiencie() {
                     <p>NDAE-Nucleo de desenvolvimento</p>
                     <p className='conteudo'>Participou como desenvolvedor no projeto MoveOn-Aplicativo móvel para mapeamento de setores que dispõe de acessibilidade na
                     cidade de Tucuruí-PA; Desenvolvido na linguagem Java; Uso do software Android Studio</p>
+                    <ul className='conteudo' style={{color:'#fff'}}>
+                        <li>Criação de Layouts em XML</li>
+                        <li>Criação de uma api para armazenar os dados</li>
+                        <li>Consumo da api de dados criada para o app</li>
+                        <li>Consumo da api Google Sign-In</li>
+                        <li>Criação de um Sliders para apresentação do app</li>
+                    </ul>
                 </div>
             </div>
             </div>
