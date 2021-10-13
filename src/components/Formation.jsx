@@ -1,5 +1,5 @@
 import React from 'react'
-import Pc from './../assets/pc1.svg'
+import Pc from './../assets/computer-illustration.png'
 
 export default function Formation() {
     return (

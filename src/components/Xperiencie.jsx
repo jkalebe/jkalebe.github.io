@@ -34,7 +34,7 @@ function Xperiencie() {
                         <li>Criação de uma api para armazenar os dados</li>
                         <li>Consumo da api de dados criada para o app</li>
                         <li>Consumo da api Google Sign-In</li>
-                        <li>Criação de um Sliders para apresentação do app</li>
+                        <li>Criação de um Slides de apresentação do app</li>
                     </ul>
                 </div>
             </div>
