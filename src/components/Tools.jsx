@@ -11,45 +11,46 @@ import {SiAndroidstudio} from 'react-icons/si'
 
 function Tools() {
 const size = '5em'
+const color = '#fff'
     return (
         <div className='container'>
         <div id="tools">
-            <div className='divTitle'><p>Ferramentas</p></div>
+            <div><p className='divTitle'>Ferramentas</p></div>
             <div className='container-tools'>
                 <div className='tecnologias'>
-                    <AiFillHtml5 className='iconesTools' color={'#fff'} size={size}/>
+                    <AiFillHtml5 className='iconesTools' color={color} size={size}/>
                     <p>HTML</p>
                 </div>
                 <div className='tecnologias'>
-                    <DiCss3 className='iconesTools' color={'#fff'} size={size}/>
+                    <DiCss3 className='iconesTools' color={color} size={size}/>
                     <p>Css</p>
                 </div>
                 <div className='tecnologias'>
-                    <IoLogoJavascript className='iconesTools' color={'#fff'} size={size}/>
+                    <IoLogoJavascript className='iconesTools' color={color} size={size}/>
                     <p>JavaScript</p>
                 </div>
                 <div className='tecnologias'>
-                    <FaReact className='iconesTools' color={'#fff'} size={size}/>
+                    <FaReact className='iconesTools' color={color} size={size}/>
                     <p>React</p>
                 </div>
                 <div className='tecnologias'>
-                    <FaNodeJs className='iconesTools' color={'#fff'} size={size}/>
+                    <FaNodeJs className='iconesTools' color={color} size={size}/>
                     <p>NodeJS</p>
                 </div>
                 <div className='tecnologias'>
-                    <SiMysql className='iconesTools' color={'#fff'} size={size}/>
+                    <SiMysql className='iconesTools' color={color} size={size}/>
                     <p>MySQL</p>
                 </div>
                 <div className='tecnologias'>
-                    <SiMongodb className='iconesTools' color={'#fff'} size={size}/>
+                    <SiMongodb className='iconesTools' color={color} size={size}/>
                     <p>MongoDB</p>
                 </div>
                 <div className='tecnologias'>
-                    <DiJava className='iconesTools' color={'#fff'} size={size}/>
+                    <DiJava className='iconesTools' color={color} size={size}/>
                     <p>Java</p>
                 </div>
                 <div className='tecnologias'>
-                    <SiAndroidstudio className='iconesTools' color={'#fff'} size={size}/>
+                    <SiAndroidstudio className='iconesTools' color={color} size={size}/>
                     <p>Android Studio</p>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import perfil from './../assets/perfil-2.png'
+import perfil from './../assets/perfil.png'
 
 export default function Header() {
     return (
@@ -10,8 +10,9 @@ export default function Header() {
                     <p>23 anos, Breu Branco-PA / Brasil</p>
                 </div>
                 <div className='divFilho' id='divName'>
-                    <p>Jeremias Kalebe Cunha Estumano</p>
-                    <p>Engenheiro da Computação</p>
+                    <p style={{fontWeight: 'lighter'}}>Olá, eu sou o</p>
+                    <p style={{fontWeight: 'bold', color:'#a15aba'}}>Jeremias Kalebe</p>
+                    <p style={{fontWeight: 'lighter', color:'#bd93f9'}}>Android Developer | Computer Engineering</p>
                 </div>
             </div>
         </div>

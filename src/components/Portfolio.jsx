@@ -25,7 +25,7 @@ export default class Portfolio extends Component {
       
       <div className='container'>
         <div id='portfolio'>
-            <div className='divTitle'><p>Portfólio</p></div>
+            <div><p className='divTitle'>Portfólio</p></div>
             <div><BiMobileAlt color={'#fff'} size={size}/></div>
             <Carousel >
             <Carousel.Item>

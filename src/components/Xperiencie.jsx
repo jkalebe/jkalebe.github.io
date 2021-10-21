@@ -4,8 +4,8 @@ function Xperiencie() {
     return (
         <div className='container'>
             <div  id='xperiencia'>
-                <div className='divTitle'>
-                    <p>Experiência</p> 
+                <div>
+                    <p className='divTitle'>Experiência</p> 
                 </div>
             <div   className='divXperiencia'>
                 <div className='div'>

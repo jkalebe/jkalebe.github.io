@@ -11,7 +11,7 @@ function Contact() {
     const size='3em'
     return (
         <div className='container' id='contact'>
-            <div className='divTitle'><p>Contato</p></div>
+            <div><p className='divTitle'>Contato</p></div>
                 <a target="_blank" href="https://www.instagram.com/kalebe317/"><FiInstagram className='iconesTools' color={'#fff'} size={size}/></a>
                 <a target="_blank" href="https://www.linkedin.com/in/jeremias-kalebe-cunha-estumano-5990b621b/"><FaLinkedin className='iconesTools' color={'#fff'} size={size}/></a>
                 <a target="_blank" href="https://api.whatsapp.com/send/?phone=5594992727306&text&app_absent=0"><IoLogoWhatsapp className='iconesTools' color={'#fff'} size={size}/></a>
