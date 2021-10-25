@@ -1,5 +1,5 @@
 import React from 'react'
-import perfil from './../assets/perfil.png'
+import perfil from './../assets/perfil-3.png'
 
 export default function Header() {
     return (
