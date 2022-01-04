@@ -12,6 +12,7 @@ import Movie from './../assets/Movie.gif'
 import MoveOn from './../assets/MoveOn.gif'
 import Music from './../assets/AppMusic.gif'
 import MovieInfo from './../assets/MovieInfo.gif'
+import AppBookLivros from './../assets/AppBookLivros.gif'
 
 // import appMoveOn from './../assets/app-moveon.gif'
 import siteInstagran from './../assets/site-instagram.gif'
@@ -46,6 +47,13 @@ export default class Portfolio extends Component {
               <a target='_blank' href=''><img
               style={{height: '20rem'}}
               src={Movie}
+              alt="Third slide"
+              /></a>
+              </Carousel.Item>
+              <Carousel.Item>
+              <a target='_blank' href='https://github.com/jkalebe/AppGooglebooks'><img
+              style={{height: '20rem'}}
+              src={AppBookLivros}
               alt="Third slide"
               /></a>
               </Carousel.Item>
