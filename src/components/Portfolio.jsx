@@ -8,7 +8,7 @@ import {BiMobileAlt} from 'react-icons/bi'
 import siteDesafio from './../assets/site-desafio.gif'
 import siteEcommerce from './../assets/site-ecommerce.gif'
 import siteLaws from './../assets/laws.gif'
-import Movie from './../assets/Movie.gif'
+import Movie from './../assets/AppMovieInfo.gif'
 import MoveOn from './../assets/MoveOn.gif'
 import Music from './../assets/AppMusic.gif'
 import MovieInfo from './../assets/MovieInfo.gif'
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
               /></a>
               </Carousel.Item>
             <Carousel.Item>
-              <a target='_blank' href=''><img
+              <a target='_blank' href='https://github.com/jkalebe/AppMovieInfo'><img
               style={{height: '20rem'}}
               src={Movie}
               alt="Third slide"
