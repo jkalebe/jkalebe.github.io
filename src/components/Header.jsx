@@ -7,7 +7,7 @@ export default function Header() {
             <div id="header">
                 <div className='divFilho' id='divImg'>
                     <img src={perfil} alt="Perfil" />
-                    <p>23 anos, Breu Branco-PA / Brasil</p>
+                    <p>24 anos, Breu Branco-PA / Brasil</p>
                 </div>
                 <div className='divFilho' id='divName'>
                     <p style={{fontWeight: 'lighter'}}>Olá, eu sou o</p>

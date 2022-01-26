@@ -8,8 +8,8 @@ export default function Formation() {
                 <p className='divTitle'>Formação</p>
                     <div id='divLiandImg'>
                     <div id="divLi">
-                        <li><p>Engenheiro da Computação, Universidade Federal do Pará(2016-2021)</p></li>
-                        <li><p>Projeto de conclusão de curso: <a target='_blank' style={{color: '#C8A2C8'}} href="https://marcosamaris.github.io/laws/#/">"Laws - Ferramenta de anotação para gravações de midias!"</a></p></li>
+                        <li><p>Engenheiro da Computação, Universidade Federal do Pará(2016-2021).</p></li>
+                        <li><p>Projeto de conclusão de curso: <a target='_blank' style={{color: '#C8A2C8'}} href="https://marcosamaris.github.io/laws/#/">"Laws - Ferramenta de anotação para gravações de midias."</a></p></li>
                     </div>
                     <div id="divImg">
                         <img style={{width: '15rem'}} src={Pc} alt="PC" />
