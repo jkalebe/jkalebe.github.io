@@ -10,7 +10,7 @@ import {AiFillGithub} from 'react-icons/ai'
 function Contact() {
     const size='3em'
     return (
-        <div className='container' id='contact'>
+        <div id='contact'>
             <div><p className='divTitle'>Contato</p></div>
                 <a target="_blank" href="https://www.instagram.com/kalebe317/"><FiInstagram className='iconesTools' color={'#fff'} size={size}/></a>
                 <a target="_blank" href="https://www.linkedin.com/in/jeremias-kalebe-cunha-estumano-5990b621b/"><FaLinkedin className='iconesTools' color={'#fff'} size={size}/></a>

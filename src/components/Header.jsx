@@ -3,18 +3,16 @@ import perfil from './../assets/perfil-3.png'
 
 export default function Header() {
     return (
-        <div className='container'>
-            <div id="header">
-                <div className='divFilho' id='divImg'>
-                    <img src={perfil} alt="Perfil" />
+            <div className='mb-2 mt-2 align-items-center flex flex-column flex-row'>
+                <div  className='px-2 divFilho esquerda text-center'>
+                    <img src={perfil} style={{width: '20rem'}} alt="Perfil" />
                     <p>24 anos, Breu Branco-PA / Brasil</p>
                 </div>
-                <div className='divFilho' id='divName'>
-                    <p style={{fontWeight: 'lighter'}}>Olá, eu sou o</p>
-                    <p style={{fontWeight: 'bold', color:'#a15aba'}}>Jeremias Kalebe</p>
-                    <p style={{fontWeight: 'lighter', color:'#bd93f9'}}>Android Developer | Computer Engineering</p>
+                <div  className='px-2 full-width divFilho direita'>
+                    <p className='txt-p'>Olá, eu sou o</p>
+                    <p className='title'>Jeremias Kalebe</p>
+                    <p className='txt-p' style={{color:'#bd93f9'}}>Android Developer | Computer Engineering</p>
                 </div>
             </div>
-        </div>
     )
 }

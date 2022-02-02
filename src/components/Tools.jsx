@@ -13,9 +13,8 @@ function Tools() {
 const size = '5em'
 const color = '#fff'
     return (
-        <div className='container'>
-        <div id="tools">
-            <div><p className='divTitle'>Ferramentas</p></div>
+        <div className='mt-2' id="tools">
+            <p className='title'>Ferramentas</p>
             <div className='container-tools'>
                 <div className='tecnologias'>
                     <AiFillHtml5 className='iconesTools' color={color} size={size}/>
@@ -54,7 +53,6 @@ const color = '#fff'
                     <p>Android Studio</p>
                 </div>
             </div>
-        </div>
         </div>
     )
 }
