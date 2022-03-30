@@ -1,5 +1,7 @@
 import React from 'react'
-import perfil from './../assets/perfil-3.png'
+
+
+const perfil = 'https://res.cloudinary.com/nenhum/image/upload/v1648678104/perfil-3_yxlqmy.png'
 
 export default function Header() {
     return (
