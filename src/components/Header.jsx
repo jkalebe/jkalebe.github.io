@@ -3,9 +3,9 @@ import perfil from './../assets/perfil-3.png'
 
 export default function Header() {
     return (
-            <div className='mb-2 mt-2 align-items-center flex flex-column flex-row content-media-image'>
+            <div className='mb-2 mt-2 align-items-center flex flex-column flex-row'>
                 <div  className='px-2 divFilho esquerda text-center'>
-                    <img src={perfil} style={{width: '20rem'}} alt="Perfil" />
+                    <img className='content-media-image' src={perfil} style={{width: '20rem'}} alt="Perfil" />
                     <p>24 anos, Breu Branco-PA / Brasil</p>
                 </div>
                 <div  className='px-2 full-width divFilho direita'>
