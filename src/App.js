@@ -11,7 +11,7 @@ import Contact from './components/Contact.jsx';
 
 function App() {
   return (
-    <div>
+    <div >
       <NavBar />
       <div className='app'>
         <div className='container'>
