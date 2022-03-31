@@ -1,4 +1,5 @@
 import React from 'react'
+import ComputerWithCode from './ComputerWithCode.jsx'
 
 
 const perfil = 'https://res.cloudinary.com/nenhum/image/upload/v1648678104/perfil-3_yxlqmy.png'
@@ -15,6 +16,7 @@ export default function Header() {
                     <p className='title'>Jeremias Kalebe</p>
                     <p className='txt-p' style={{color:'#bd93f9'}}>Android Developer | Computer Engineering</p>
                 </div>
+                <ComputerWithCode/>
             </div>
     )
 }
