@@ -130,3 +130,8 @@
   align-items: center;
 }
 
+/* computer with code */
+.comp-relative{
+  position: fixed;
+  opacity: 0.09;
+}

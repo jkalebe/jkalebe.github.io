@@ -19,10 +19,10 @@ const navToggle = () =>{
                 <a href="#" className='nav__brand'>Portfólio</a>
                 <ul className={active}>
                 <li className="nav__item"><a href='#' className='nav__link'>Home</a></li>
-                <li className="nav__item"><a href='#' className='nav__link'>Formação</a></li>
-                <li className="nav__item"><a href='#' className='nav__link'>Experiência</a></li>           
-                <li className="nav__item"><a href='#' className='nav__link'>Portfólio</a></li>
-                <li className="nav__item"><a href='#' className='nav__link'>Contato</a></li>
+                <li className="nav__item"><a href='#formation' className='nav__link'>Formação</a></li>
+                <li className="nav__item"><a href='#xperiencia' className='nav__link'>Experiência</a></li>           
+                <li className="nav__item"><a href='#portfolio' className='nav__link'>Portfólio</a></li>
+                <li className="nav__item"><a href='#contact' className='nav__link'>Contato</a></li>
                 </ul>
                 <div onClick={navToggle} className={toggleIcon}>
                 <div className="line1"></div>

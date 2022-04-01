@@ -7,6 +7,9 @@ const perfil = 'https://res.cloudinary.com/nenhum/image/upload/v1648678104/perfi
 export default function Header() {
     return (
             <div className='mb-2 mt-2 align-items-center flex flex-column flex-row'>
+                <div className='comp-relative'>
+                    <ComputerWithCode/>
+                </div>
                 <div  className='px-2 divFilho esquerda text-center'>
                     <img className='content-media-image' src={perfil} style={{width: '20rem'}} alt="Perfil" />
                     <p>24 anos, Breu Branco-PA / Brasil</p>
@@ -16,7 +19,8 @@ export default function Header() {
                     <p className='title'>Jeremias Kalebe</p>
                     <p className='txt-p' style={{color:'#bd93f9'}}>Android Developer | Computer Engineering</p>
                 </div>
-                <ComputerWithCode/>
+                
+                
             </div>
     )
 }
