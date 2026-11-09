@@ -13,7 +13,7 @@ export default class Portfolio extends Component {
   render() {
     return (
           <div className='mt-2' id='portfolio'>
-            <h2 className='title'>Portfólio</h2>
+            <h2 className='title'>Projetos pessoais e acadêmicos</h2>
             <section id="slideshow">
                 <div className="entire-content">
                   <div className="content-carrousel">
