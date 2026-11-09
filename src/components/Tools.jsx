@@ -79,7 +79,7 @@ export default function Tools() {
   }
 
   return (
-    <section className="mt-2 mb-2" id="tools" aria-labelledby="stack-title">
+    <section className="page-section stack-panel" id="tools" aria-labelledby="stack-title">
       <h2 className="title" id="stack-title">Stack e ferramentas</h2>
       <ul className="stack-skills" aria-label="Competências">
         {skills.map((skill) => <li key={skill}>{skill}</li>)}

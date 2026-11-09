@@ -1,33 +1,17 @@
-import React, { Component, useState } from 'react'
-import './navbar.css'
-
-
+import './navbar.css';
 
 export default function NavBar() {
-const [active, setActive] = useState('nav__menu');
-const [toggleIcon, setToggleIcon] = useState("nav__toggler");
-
-const navToggle = () =>{
-    active === 'nav__menu' ? setActive('nav__menu nav__active'): setActive('nav__menu')
-    // TogglerIcon
-
-    toggleIcon === 'nav__toggler' ? setToggleIcon('nav__toggler toggle') : setToggleIcon('nav__toggler')
-}
-
-        return (
-            <nav className='nav'>
-                <a href="#" className='nav__brand'>Portfólio</a>
-                <ul className={active}>
-                <li className="nav__item"><a href='#' className='nav__link'>Home</a></li>
-                <li className="nav__item"><a href='#xperiencia' className='nav__link'>Experiência</a></li>           
-                <li className="nav__item"><a href='#tools' className='nav__link'>Stack</a></li>
-                <li className="nav__item"><a href='#contact' className='nav__link'>Contato</a></li>
-                </ul>
-                <div onClick={navToggle} className={toggleIcon}>
-                <div className="line1"></div>
-                <div className="line2"></div>
-                <div className="line3"></div>
-                </div>
-            </nav>
-    )
+  return (
+    <nav className="site-nav" aria-label="Navegação principal">
+      <div className="container site-nav-inner">
+        <a className="site-brand" href="#header"><span aria-hidden="true">JK</span> Jeremias Kalebe</a>
+        <ul className="site-nav-links">
+          <li><a href="#xperiencia">Experiência</a></li>
+          <li><a href="#tools">Stack</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li><a href="#academic">Formação e projetos</a></li>
+        </ul>
+      </div>
+    </nav>
+  );
 }

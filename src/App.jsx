@@ -1,5 +1,5 @@
 import './App.css';
-import img from './assets/pc1.svg'
+import { FiArrowUp } from 'react-icons/fi';
 
 import NavBar from './components/NavBar.jsx'
 import Header from './components/Header.jsx';
@@ -11,28 +11,27 @@ import Contact from './components/Contact.jsx';
 
 function App() {
   return (
-    <div >
+    <>
       <NavBar />
-      <div className='app'>
-        <div className='container'>
-          <Header/>
-          <Xperiencie/>
-          <Tools/>
-          <Contact/>
-          <section className="academic-section" id="academic" aria-labelledby="academic-title">
-            <h2 id="academic-title" lang="en">Academic and Projects</h2>
-            <p className="academic-intro">Minha formação e os projetos que marcaram o início da minha trajetória em desenvolvimento.</p>
-            <div className="academic-grid">
-              <Formation/>
-              <Portfolio/>
-            </div>
-          </section>
-          <div id='end'>
-            <a href="#header"><img style={{maxWidth: '15rem'}} src={img} alt="Laptop" /></a>
+      <main className="container">
+        <Header />
+        <Xperiencie />
+        <Tools />
+        <Contact />
+        <section className="academic-section" id="academic" aria-labelledby="academic-title">
+          <h2 id="academic-title" lang="en">Academic and Projects</h2>
+          <p className="academic-intro">Minha formação e os projetos que marcaram o início da minha trajetória em desenvolvimento.</p>
+          <div className="academic-grid">
+            <Formation />
+            <Portfolio />
           </div>
-        </div>
-      </div>
-    </div>
+        </section>
+      </main>
+      <footer className="container site-footer">
+        <span>Jeremias Kalebe</span>
+        <a href="#header">Voltar ao topo <FiArrowUp aria-hidden="true" /></a>
+      </footer>
+    </>
   );
 }
 

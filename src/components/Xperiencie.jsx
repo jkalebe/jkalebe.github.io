@@ -1,3 +1,5 @@
+import { FiBriefcase } from 'react-icons/fi';
+
 const projects = [
   {
     name: '21Driver',
@@ -23,13 +25,16 @@ const projects = [
 
 export default function Xperiencie() {
   return (
-    <section className="mb-2" id="xperiencia">
-      <h2 className="title">Experiência em projetos</h2>
+    <section className="page-section" id="xperiencia" aria-labelledby="experience-title">
+      <h2 className="title" id="experience-title">Experiência em projetos</h2>
       <div className="experience-grid">
         {projects.map(({ name, date, description }) => (
           <article className="experience-card" key={name}>
-            <h3 className="subtitle">{name}</h3>
-            <p className="experience-date">{date}</p>
+            <div className="experience-meta">
+              <span className="experience-icon"><FiBriefcase aria-hidden="true" /></span>
+              <span>{date}</span>
+            </div>
+            <h3>{name}</h3>
             <p>{description}</p>
           </article>
         ))}
