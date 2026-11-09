@@ -1,34 +1,59 @@
-import React,{Component} from 'react'
-import './carrousel.css'
+import { FiArrowUpRight, FiFolder, FiPlay } from 'react-icons/fi';
 
-const MDT = 'https://res.cloudinary.com/nenhum/image/upload/v1648669695/show_mdt_uf6sdu.gif'
-const MoveOn = 'https://res.cloudinary.com/nenhum/image/upload/v1648474613/moveOn_stuwxw.gif'
-const Movie = 'https://res.cloudinary.com/nenhum/image/upload/v1648673211/AppMovieInfo_yfojai.gif'
-const Music = 'https://res.cloudinary.com/nenhum/image/upload/v1648474615/AppMusic_tnrdvv.gif'
-const Quiz = 'https://res.cloudinary.com/nenhum/image/upload/v1648474615/AppQuiz_taqlbi.gif'
-const AppBookLivros = 'https://res.cloudinary.com/nenhum/image/upload/v1648474614/AppBookLivros_ouhcl2.gif'  
-const ApenasNoticias = 'https://res.cloudinary.com/nenhum/image/upload/v1648673905/ApenasNoticias_pwjjbl.gif'  
-export default class Portfolio extends Component {
-  
-  render() {
-    return (
-          <div className='mt-2' id='portfolio'>
-            <h2 className='title'>Projetos pessoais e acadêmicos</h2>
-            <section id="slideshow">
-                <div className="entire-content">
-                  <div className="content-carrousel">
-                    <figure className="shadow"><a target='_blank' href='https://github.com/jkalebe/AppMovieInfo'><img src={Movie}/></a></figure>
-                    <figure className="shadow"><a target='_blank' href='https://github.com/jkalebe/MoveOn'><img src={MoveOn}/></a></figure>
-                    <figure className="shadow"><a target='_blank' href='https://github.com/jkalebe/AppMusicPlayer'><img src={Music}/></a></figure>
-                    <figure className="shadow"><a target='_blank' href='https://github.com/EASY-CODES/AppQuiz'><img src={Quiz}/></a></figure>
-                    <figure className="shadow"><a target='_blank' href='https://github.com/jkalebe/AppGooglebooks'><img src={AppBookLivros}/></a></figure>
-                    <figure className="shadow"><a target='_blank' href='https://github.com/PROJECT-MDT/mobile'><img src={MDT}/></a></figure>
-                    <figure className="shadow"><a target='_blank' href='https://github.com/jkalebe/ApenasNoticias'><img src={ApenasNoticias}/></a></figure>
-              </div>
-            </div>
-          </section>
-        </div>
-    )
-  }
+const projects = [
+  {
+    name: 'App Movie Info',
+    repo: 'https://github.com/jkalebe/AppMovieInfo',
+    demo: 'https://res.cloudinary.com/nenhum/image/upload/v1648673211/AppMovieInfo_yfojai.gif',
+  },
+  {
+    name: 'MoveOn',
+    repo: 'https://github.com/jkalebe/MoveOn',
+    demo: 'https://res.cloudinary.com/nenhum/image/upload/v1648474613/moveOn_stuwxw.gif',
+  },
+  {
+    name: 'App Music Player',
+    repo: 'https://github.com/jkalebe/AppMusicPlayer',
+    demo: 'https://res.cloudinary.com/nenhum/image/upload/v1648474615/AppMusic_tnrdvv.gif',
+  },
+  {
+    name: 'App Quiz',
+    repo: 'https://github.com/EASY-CODES/AppQuiz',
+    demo: 'https://res.cloudinary.com/nenhum/image/upload/v1648474615/AppQuiz_taqlbi.gif',
+  },
+  {
+    name: 'App Google Books',
+    repo: 'https://github.com/jkalebe/AppGooglebooks',
+    demo: 'https://res.cloudinary.com/nenhum/image/upload/v1648474614/AppBookLivros_ouhcl2.gif',
+  },
+  {
+    name: 'Projeto MDT',
+    repo: 'https://github.com/PROJECT-MDT/mobile',
+    demo: 'https://res.cloudinary.com/nenhum/image/upload/v1648669695/show_mdt_uf6sdu.gif',
+  },
+  {
+    name: 'Apenas Notícias',
+    repo: 'https://github.com/jkalebe/ApenasNoticias',
+    demo: 'https://res.cloudinary.com/nenhum/image/upload/v1648673905/ApenasNoticias_pwjjbl.gif',
+  },
+];
+
+export default function Portfolio() {
+  return (
+    <article className="academic-panel" id="portfolio">
+      <h3><FiFolder aria-hidden="true" /> Projetos pessoais e acadêmicos</h3>
+      <ul className="academic-projects">
+        {projects.map(({ name, repo, demo }) => (
+          <li key={name}>
+            <a className="academic-project-name" href={repo} target="_blank" rel="noopener noreferrer">
+              {name} <FiArrowUpRight aria-hidden="true" />
+            </a>
+            <a className="academic-demo" href={demo} target="_blank" rel="noopener noreferrer" aria-label={`Demonstração de ${name}`}>
+              <FiPlay aria-hidden="true" /> Demo
+            </a>
+          </li>
+        ))}
+      </ul>
+    </article>
+  );
 }
-

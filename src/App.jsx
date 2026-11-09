@@ -16,11 +16,17 @@ function App() {
       <div className='app'>
         <div className='container'>
           <Header/>
-          <Formation/>
           <Xperiencie/>
-          <Portfolio/>
           <Tools/>
           <Contact/>
+          <section className="academic-section" id="academic" aria-labelledby="academic-title">
+            <h2 id="academic-title" lang="en">Academic and Projects</h2>
+            <p className="academic-intro">Minha formação e os projetos que marcaram o início da minha trajetória em desenvolvimento.</p>
+            <div className="academic-grid">
+              <Formation/>
+              <Portfolio/>
+            </div>
+          </section>
           <div id='end'>
             <a href="#header"><img style={{maxWidth: '15rem'}} src={img} alt="Laptop" /></a>
           </div>

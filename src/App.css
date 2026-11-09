@@ -220,3 +220,128 @@
   font-size: .875rem;
   color: #e2d7f4;
 }
+
+.academic-section {
+  position: relative;
+  margin: 3rem auto 2rem;
+  padding: clamp(1rem, 4vw, 3rem);
+  border: 1px solid rgb(216 180 254 / 25%);
+  border-radius: 1.5rem;
+  background: radial-gradient(ellipse at top left, #524275, transparent 65%), #302e49;
+  text-align: left;
+}
+
+.academic-section h2 {
+  color: #f2e7ff;
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  line-height: 1.15;
+}
+
+.academic-intro {
+  max-width: 38rem;
+  margin: .65rem 0 1.5rem;
+  color: #e2d7f4;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+.academic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 24rem), 1fr));
+  gap: 1rem;
+}
+
+.academic-panel {
+  padding: clamp(1rem, 2.5vw, 1.5rem);
+  border: 1px solid rgb(216 180 254 / 20%);
+  border-radius: 1rem;
+  background: rgb(24 20 40 / 60%);
+  line-height: 1.5;
+}
+
+.academic-panel h3 {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  margin-bottom: 1rem;
+  color: #f2e7ff;
+  font-size: 1.1rem;
+}
+
+.academic-panel svg {
+  flex-shrink: 0;
+  color: #d8b4fe;
+}
+
+.academic-degree {
+  padding-left: .9rem;
+  border-left: 2px solid #bd93f9;
+}
+
+.academic-degree span,
+.academic-thesis,
+.academic-certificates small {
+  color: #e2d7f4;
+  font-size: .875rem;
+}
+
+.academic-thesis {
+  display: grid;
+  gap: .15rem;
+  margin: 1.15rem 0;
+}
+
+.academic-panel a {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  width: fit-content;
+  color: #e4cbff;
+}
+
+.academic-panel a:hover {
+  color: #fff;
+}
+
+.academic-panel a:focus-visible {
+  outline: 2px solid #bd93f9;
+  outline-offset: 3px;
+}
+
+.academic-certificates,
+.academic-projects {
+  display: grid;
+  gap: .5rem;
+  list-style: none;
+}
+
+.academic-certificate-title {
+  margin-bottom: .5rem;
+}
+
+.academic-certificates li,
+.academic-projects li {
+  padding: .55rem .75rem;
+  border-radius: .65rem;
+  background: rgb(255 255 255 / 6%);
+  font-size: .9rem;
+}
+
+.academic-certificates small {
+  display: block;
+}
+
+.academic-projects li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: .4rem .75rem;
+}
+
+.academic-projects .academic-demo {
+  padding: .2rem .55rem;
+  border: 1px solid rgb(216 180 254 / 32%);
+  border-radius: 999px;
+  font-size: .8rem;
+}
